@@ -1,0 +1,63 @@
+''''
+persona = {
+    "nombre": "Anita",
+    "edad" : 29,
+    "ciudad" : "Lima"
+}
+
+
+print("======================== impresiones =========================")
+#print(persona["nombre"])
+
+persona["profesion"] = "Ingeniera Industrial"
+print(persona)
+
+# for clave, valor in persona.items():
+#       print(clave, "  :  ", valor)
+
+for clave,valor in persona.items():
+    print(clave, " : ", valor)
+
+
+# ejemplos de conjuntos
+print("======================== impresiones =========================")
+numeros_1 = {1,2,3,4,5,6,6,6,6,6,6,1,1,5,3,2}
+print(len(numeros_1))
+
+print("======================== impresiones =========================")
+
+#ingresar un elemento: 
+numeros_1.add(15)
+numeros_1.discard(4)
+print(numeros_1)
+'''
+
+numeros_1 = {1,2,3,4,5,6,6}
+
+numeros_2 = {4,5,6,7,8,9,10}
+
+union = numeros_1 | numeros_2
+
+interseccion  = numeros_1 & numeros_2
+
+print("union  sale  ",  union)
+
+print("======================== impresiones =========================")
+
+print("interseccion sale",  interseccion)
+
+print("======================== impresiones =========================")
+
+diferencia1 = numeros_1 - numeros_2
+print("la diferncia de 1 respectoa  2 es    ", diferencia1)
+
+print("======================== impresiones =========================")
+
+diferencia2 = numeros_2 - numeros_1
+print("la diferncia de 2 respectoa  1 es    ", diferencia2)
+
+print("======================== impresiones =========================")
+
+dif_simetrica = numeros_1 ^ numeros_2
+
+print("Diferencia simétrica:", dif_simetrica)
