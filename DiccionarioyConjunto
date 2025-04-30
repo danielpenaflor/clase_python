@@ -60,4 +60,4 @@ print("======================== impresiones =========================")
 
 dif_simetrica = numeros_1 ^ numeros_2
 
-print("Diferencia simétrica:", dif_simetrica)
+print("La diferencia simétrica:", dif_simetrica)
