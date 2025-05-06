@@ -1,4 +1,4 @@
-''''
+
 persona = {
     "nombre": "Anita",
     "edad" : 29,
@@ -30,7 +30,7 @@ print("======================== impresiones =========================")
 numeros_1.add(15)
 numeros_1.discard(4)
 print(numeros_1)
-'''
+
 
 numeros_1 = {1,2,3,4,5,6,6}
 
